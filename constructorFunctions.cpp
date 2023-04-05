@@ -7,8 +7,8 @@ public:
     string title;
     string author;
     int pages;
-    NewBook(string aTitle, string aAuthor, int aPages){                         // constructor
-        title = aTitle;
+    NewBook(string aTitle, string aAuthor, int aPages){                         // constructor is a function that is used to create a new object.
+        title = aTitle;                                                         // when you create a new object, the constructor automatically sets the initial values of its properties.
         author = aAuthor;
         pages = aPages;
 
